@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  webserver:
+    image: 7206075514/acmgo:latest
+    ports: 
+      - "80:8080"
